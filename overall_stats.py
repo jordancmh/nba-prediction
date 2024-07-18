@@ -4,7 +4,7 @@ from dash.dependencies import Input, Output
 import pandas as pd
 
 # Load data
-# url = "https://raw.githubusercontent.com/jordancmh/nba-prediction/main/nba_player_stats.csv?token=GHSAT0AAAAAACU3EWXT6BSMW6RNR35R4TNYZUUT33Q"
+# url = "https://raw.githubusercontent.com/jordancmh/nba-prediction/main/nba_player_stats.csv"
 data = pd.read_csv("csv files/nba_player_stats.csv")
 
 # Remove PLAYER_ID and TEAM_ID columns
